@@ -1,3 +1,5 @@
+package Learning;
+
 import java.util.Scanner;
 
 public class Learning1 {
@@ -8,10 +10,10 @@ public class Learning1 {
             if (b % 3 == 0 && b % 5 == 0) {
                 System.out.println("FizzBuzz");
             }
-            else if (b % 3 == 0) {
+             else if (b % 3 == 0) {
                 System.out.println("Fizz");
             }
-            else if (b % 5 == 0) {
+             else if (b % 5 == 0) {
                 System.out.println("Buzz");
             } else {
                 System.out.println(b);

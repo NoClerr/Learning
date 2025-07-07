@@ -21,7 +21,7 @@ public class Notification {
         System.out.println(this);
     }
 
-    void send(String extra) {
+    public void send(String extra) {
         System.out.println(this.message + " extra" + extra);
     }
 
